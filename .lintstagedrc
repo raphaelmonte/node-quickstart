@@ -3,6 +3,6 @@
     "tsc --noEmit",
     "eslint './src/**' --fix",
     "npm run test",
-    "git add"
+    "git add ."
   ]
 }
