@@ -1,4 +1,4 @@
-# Node with Typescript and Webpack 
+# Node with Typescript
 
 This repository contains a simple quickstart of how to program on a node using Typescript and Webpack.
 
