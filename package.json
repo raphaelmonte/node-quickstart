@@ -1,37 +1,27 @@
 {
-  "name": "node-typescript-webpack-quickstart",
+  "name": "node-quickstart",
   "version": "1.0.0",
-  "description": "Node with Typescript and Webpack",
+  "description": "Node Quickstart",
   "main": "index.js",
-  "scripts": {
-    "start": "NODE_ENV=development webpack --config config/webpack/webpack.development.js",
-    "nodemon": "NODE_ENV=development nodemon build/index.js",
-    "build": "NODE_ENV=production webpack --config config/webpack/webpack.production.js",
-    "test": "jest --config config/jest/jest.config.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/raphaelmonte/node-typescript-webpack-quickstart"
+    "url": "https://github.com/raphaelmonte/node-quickstart"
   },
   "author": "Raphael Monte",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "lint": "lint"
   },
   "devDependencies": {
-    "@types/express": "^4.17.1",
-    "@types/jest": "^24.0.19",
-    "@types/node": "^12.11.1",
-    "@types/supertest": "^2.0.8",
-    "jest": "^24.9.0",
-    "nodemon": "^1.19.4",
-    "supertest": "^4.0.2",
-    "ts-jest": "^24.1.0",
-    "ts-loader": "^6.2.0",
-    "typescript": "^3.6.4",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
-    "webpack-node-externals": "^1.7.2",
-    "webpack-shell-plugin": "^0.5.0"
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "git-commit-msg-linter": "^3.2.6",
+    "typescript": "^4.3.5"
   }
 }
