@@ -1,0 +1,6 @@
+{
+  "*.ts": [
+    "tsc --noEmit",
+    "eslint './src/**/*.{ts,tsx}'"
+  ]
+}
