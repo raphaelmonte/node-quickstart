@@ -4,10 +4,10 @@ This repository contains a simple quickstart of how to program on a node using T
 
 # This project was created using
 
-* Express
 * Jest
-* Supertest
-* Webpack
+* Commit message linter
+* Husky with Lint Staged
+* Eslint (standard-with-typescript)
 * Typescript
 
 # Install dependencies
