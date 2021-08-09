@@ -1,6 +1,8 @@
 {
   "*.ts": [
     "tsc --noEmit",
-    "eslint './src/**/*.{ts,tsx}'"
+    "eslint './src/**' --fix",
+    "npm run test",
+    "git add"
   ]
 }
